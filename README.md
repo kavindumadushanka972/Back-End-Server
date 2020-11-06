@@ -7,3 +7,5 @@ Database is located in mongoDB server.
 
 # To Run The Server
 npm start
+
+*Provide Database Password before run
