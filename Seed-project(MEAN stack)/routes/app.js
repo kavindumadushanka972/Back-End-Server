@@ -13,12 +13,11 @@ router.get('/', function (req, res, next) {
 
 // Post the details about users
 router.post('/', function (req, res, next) {
-    var email = req.body.email;
     var user = new User({
-        firstName: 'Kavindu',
-        lastName: 'Madushanka',
-        password: '1997Podi',
-        email: email
+        firstName: req.body.fname,
+        lastName: req.body.lname,
+        password: req.body.pass,
+        email:  req.body.email
     });
     user.save();
     console.log(user);
