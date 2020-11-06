@@ -9,7 +9,7 @@ var mongoose = require('mongoose');
 var appRoutes = require('./routes/app');
 
 var app = express();
-mongoose.connect('mongodb+srv://Kavindu:nAj2HKSC8FXBtjXP@cluster0.0hfpe.mongodb.net/todo?retryWrites=true&w=majority'); //with the '/' passing the name of the database
+mongoose.connect('mongodb+srv://Kavindu:<password>@cluster0.0hfpe.mongodb.net/todo?retryWrites=true&w=majority'); //with the '/' passing the name of the database
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
