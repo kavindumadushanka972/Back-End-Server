@@ -1,4 +1,4 @@
-# Back-End-Server
+# MEAN stack development
 
 This repo contains codes to run the server in NodeJS.
 =======
